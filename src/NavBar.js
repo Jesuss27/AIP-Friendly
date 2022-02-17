@@ -16,7 +16,7 @@ function NavBar() {
      </NavbarBrand> 
     <NavbarToggler onClick={ () => { setIsOpen(!isOpen)} } />
         <Collapse isOpen={isOpen } navbar>
-            <Nav  className='me-auto navbar-display-flex' 
+            <Nav  className='ms-auto ' 
             navbar
             >
                 <NavItem>
